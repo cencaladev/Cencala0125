@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos de Grado Semestre 01 de 2025</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
+    <script src="/js/hinclude.js" type="text/javascript"></script>
 </head>
 
 <body>
+    <!-- llamar el componente navbar -->
+    <hx:include src="/components/Navbar.html"></hx:include>
+
     <div class="max-w-5xl mx-auto">
+
         <h1 class="text-3xl">Proyectos de Grado - Semestre 01 de 2025</h1>
         <div class="p-5">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel, deserunt ad voluptas sint eaque
@@ -20,10 +24,10 @@
 
         <div class="grid grid-columns-4 p-4">
             <div class="rounded w-1/4 border p-2 space-y-4 text-center bg-teal-200">
-                <h2 class="font-bold">PhoneHub prueba</h2>
+                <h2 class="font-bold">PhoneHub</h2>
                 <p>Tienda de Celulares en Linea</p>
                 <div class="p-2">
-                    <a href="proyecto1.html" class="border rounded bg-gray-300 p-2">Ver más informacón</a>
+                    <a href="proyectos/PhoneHub.html" class="border rounded bg-gray-300 p-2">Ver más informacón</a>
                 </div>
             </div>
         </div>
